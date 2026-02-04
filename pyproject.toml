@@ -37,7 +37,10 @@ dependencies = [
     "torchao",
     # Local third-party packages
     "nano-vllm; sys_platform != 'darwin'",
-    "modelscope"
+    "modelscope",
+    "peft",
+    "lightning",
+    "lightning-fabric"
 ]
 
 [[tool.uv.index]]
